@@ -1,0 +1,4 @@
+$EXTERNAL_IP $EXTERNAL_IP.opts-slash.app.opts-uri.redirect.center
+$EXTERNAL_IP $EXTERNAL_IP.opts-slash.res.opts-uri.redirect.center
+$EXTERNAL_IP $EXTERNAL_IP.opts-slash.ping.opts-uri.redirect.center
+$EXTERNAL_IP $EXTERNAL_IP.opts-slash.s3.opts-uri.redirect.center

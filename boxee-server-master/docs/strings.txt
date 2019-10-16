@@ -1,0 +1,564 @@
+tdpq
+/lib/ld-linux.so.2
+libpthread.so.0
+_Jv_RegisterClasses
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_attr_setstacksize
+pthread_create
+pthread_attr_destroy
+send
+system
+connect
+recv
+accept
+libstdc++.so.6
+__gmon_start__
+__gxx_personality_v0
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+_IO_stdin_used
+socket
+strcpy
+htons
+sprintf
+fopen
+time
+listen
+select
+mkdir
+feof
+fgets
+strlen
+getaddrinfo
+memset
+strstr
+bind
+shutdown
+inet_addr
+memcpy
+fclose
+malloc
+strcat
+remove
+ioctl
+usleep
+fwrite
+fread
+atoi
+fprintf
+freeaddrinfo
+strcmp
+__libc_start_main
+free
+__xstat
+CXXABI_1.3
+GLIBC_2.1
+GLIBC_2.0
+PTRh
+<[u4
+D$$@
+<[u4
+[^_]
+/boxeeproxy
+/boxeeproxy/log
+/boxeeproxy/sources.csv
+id,premium,type,geo,thumb,offer,display
+/boxeeproxy/repos.ini
+[aio.fuzzthed]
+url=http://dir.fuzzthed.com
+name=Fuzzthed's Third-Party Repository
+description=One Repository to Rule them all.
+thumb=http://www.fuzzthed.com/repository/repothumb.png
+/boxeeproxy/genres_movie.csv
+id,display
+ACTION,Action
+ADVENTURE,Adventure
+ANIMATION,Animation
+BIOGRAPHY,Biography
+COMEDY,Comedy
+CRIME,Crime
+DOCUMENTARY,Documentary
+DRAMA,Drama
+FAMILY,Family
+FANTASY,Fantasy
+FILM_NOIR,Film-Noir
+HISTORY,History
+HORROR,Horror
+MUSIC,Music
+MUSICAL,Musical
+MYSTERY,Mystery
+NEWS,News
+ROMANCE,Romance
+SCI_FI,Sci-Fi
+SHORT,Short
+SPORT,Sport
+THRILLER,Thriller
+WAR,War
+WESTERN,Western
+/boxeeproxy/genres_tv.csv
+id,display
+ACTION,Action
+ADVENTURE,Adventure
+ANIMATION,Animation
+BIOGRAPHY,Biography
+COMEDY,Comedy
+CRIME,Crime
+DOCUMENTARY,Documentary
+DRAMA,Drama
+FAMILY,Family
+FANTASY,Fantasy
+GAME_SHOW,Game Show
+HISTORY,History
+HORROR,Horror
+MUSIC,Music
+MUSICAL,Musical
+MYSTERY,Mystery
+NEWS,News
+REALITY_TV,Reality-TV
+ROMANCE,Romance
+SCI_FI,Sci-Fi
+SHORT,Short
+SPORT,Sport
+TALK_SHOW,Talk-Show
+THRILLER,Thriller
+WAR,War
+WESTERN,Western
+/boxeeproxy/featured.ini
+/boxeeproxy/weather.ini
+temperature=-7
+realfeel=-15
+weathericon=05
+/boxeeproxy/categories.csv
+id,display
+2,Education
+3,Entertainment
+4,Film & TV
+5,Gaming
+6,Kids
+7,Life Style
+8,Live
+9,Music
+10,News
+11,Photo
+15,Radio
+13,Social
+12,Sports
+14,Tech
+/boxeeproxy/appindex.xml
+<?xml version="1.0" encoding="UTF-8" ?><apps></apps>
+/boxeeproxy/badwords.csv
+badword
+xvid720p
+480p
+1080p
+1080i
+sharereactor
+webrip
+dvd[0-9]*
+hdtv
+pdtv
+dvdscr
+^ts$
+director'?s *cut
+directors cut
+aerox
+loki
+esir
+x264
+hddvd
+bluray
+sample
+cd[0-9]+
+divx5pro
+dvdr
+divx
+darkside_rg
+dvdrip
+^cam$
+axxo
+klaxxon
+leetay
+pukka
+unrated
+readnfo
+eyetv
+tnan
+ctrlhd
+arigold
+haideaf
+^immerse$
+cbgb
+dtheather
+^metis$
+h264
+^aaf$
+whiizz
+bdrip
+^amc$
+bestdivx
+brip
+brrip
+cinefile
+duqa
+^dvb$
+^eng$
+eztv
+^fs$
+hardengsub
+^md$
+movieextreme
+multisub
+nedivx
+newartriot
+orenji
+part[0-9]+
+blueladyrg
+secretmyth
+sharereactor
+^tc$
+^ts$
+telesync
+zektorm
+vaughnage
+wunseedee
+zune
+flawl3ss
+devise
+fasm
+half sbs
+full sbs
+avs720
+extras
+/boxeeproxy/registration.ini
+// EDIT
+[Registration]
+username=%s
+firstname=%s
+lastname=%s
+city=%s
+state=%s
+postalcode=%s
+countrycode=%s
+country=%s
+temp=%s
+clock=%s
+movieexec=%s
+moviekey=%s
+/data
+username
+firstname
+lastname
+city
+state
+postalcode
+country
+countrycode
+temp
+clock
+movieexec
+moviekey
+0.0.3
+HTTP/1.0 200 OK
+Content-Type: %s
+Content-Length: %d
+Server: BoxeeSimProxy %s
+Connection: keep-alive
+application/xml
+%s/boxeeproxy/sources.csv
+<?xml version="1.0" encoding="UTF-8" ?><sources>
+<source id="%s" premium="%s" type="%s" geo="%s" thumb="%s" offer="%s">%s</source>
+</sources>
+%s/boxeeproxy/badwords.csv
+<?xml version="1.0" encoding="UTF-8" ?><badwords>
+<badword>%s</badword
+</badwords>
+type=tv
+type=movie
+movie
+%s/boxeeproxy/genres_%s.csv
+<?xml version="1.0" encoding="UTF-8" ?><genres>
+<genre id="%s">%s</genre>
+</genres>
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<sections><section id="LIBRARY">All</section><section id="GENRES" path="boxee://movies/genres">Genres</section><section id="COMING_SOON">Coming Soon</section><section id="BOXOFFICE_TOP">Box Office</section></sections>
+%s/boxeeproxy/categories.csv
+<?xml version="1.0" encoding="UTF-8" ?><categories>
+<category id="%s">%s</category>
+</categories>
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<popularity><timestamp utc='%lld'/></popularity>
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<repositories><timestamp utc='%lld'/>
+%s/boxeeproxy/repos.ini
+name
+desc
+thumb
+<object type="repository" id="%s"><url>%s</url><name>%s</name><description>%s</description><thumb>%s</thumb></object>
+</repositores>
+<?xml version="1.0" encoding="UTF-8" ?><boxee><excluded_sources>databazaar,mubi</excluded_sources></boxee>
+%s/boxeeproxy/appindex.xml
+<?xml version='1.0' encoding='ISO-8859-1' ?><boxeefeed><timestamp>%lld</timestamp><last>0</last></boxeefeed>
+application/json
+%s/boxeeproxy/weather.ini
+temperature
+realfeel
+weathericon
+{"temperature":"%s","realfeel":"%s","weathericon":"%s"}
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<ping><cmds ping_version='9'></cmds><timestamp utc='%lld'/></ping>
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<ping><timestamp utc='%lld' /></ping>
+%s %s
+http://s3.boxee.tv/thumb/78x78/default.png
+http://s3.boxee.tv/thumb/200x200/default.png
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<object type="user" id="%s"><name>%s</name><short_name>%s</short_name><thumb>%s</thumb><thumb_small>%s</thumb_small><user_id>%s</user_id><user_display_name>%s</user_display_name><user_first_name>%s</user_first_name><user_last_name>%s</user_last_name><country>%s</country><show_movie_library>1</show_movie_library></object>
+{"country_code":"%s","country_name":"%s","city":"%s","postal_code":"%s","state_code":"%s","temp_unit":"%s","clock_12_24":"%s"}
+text/xml
+%s/boxeeproxy/%d.sess
+Searching for: [%s]
+./moviescrape query "%s" > "%s"
+name=
+<?xml version='1.0' encoding='ISO-8859-1' ?><search>
+./moviescrape list "%s" > "%s"
+<title id='%s' year='%s' type='movie'>%s</title>
+</search>
+<?xml version='1.0' encoding='ISO-8859-1' ?><boxeefeed><timestamp>%lld</timestamp><last>1</last>
+%s/boxeeproxy/featured.ini
+title
+description
+<message type="featured" score="0" referral="0" source="boxee">
+<timestamp>%lld</timestamp><description>%s</description><object type="stream_video" id="%d"><name>%s</name><url>%s</url><thumb>%s</thumb><description>%s</description></object><object type="user" id="yourself"><name>you</name><short_name>you</short_name><thumb>http://s3.boxee.tv/thumb/200x200/default.png</thumb><thumb_small>http://s3.boxee.tv/thumb/78x78/default.png</thumb_small><user_id>boxee_staff</user_id><user_display_name>boxee staff</user_display_name><user_first_name>boxee</user_first_name><user_last_name>staff</user_last_name><show_movie_library>1</show_movie_library></object></message>
+</boxeefeed>
+%s/boxeeproxy/log/bb_%d.log
+From BBOX
+HEAD 
+Host: 
+CONNECT
+HTTP/1.1 404 Error
+Creating HTTP Tunnel to %s:%d
+Failed to resolve host %s
+Failed to resolve %s
+Opened Tunnel to %s:%d
+HTTP/1.1 200 OK
+Closing HTTP Tunnel to %s:%d
+Proxying request to %s:%d
+Failed connection to %s:%d
+From SERVER
+Request %d bytes received... 
+_out_bin
+ping.boxee.tv
+app.boxee.tv/ping/dlink
+app.boxee.tv/chkupd
+app.boxee.tv/api/login
+app.boxee.tv/location/detect
+app.boxee.tv/api/get_recommendations
+app.boxee.tv/api/get_applications
+app.boxee.tv/api/get_subscriptions
+app.boxee.tv/api/bookmarks
+app.boxee.tv/api/get_services
+app.boxee.tv/applications/popularity
+app.boxee.tv/api/get_repositories
+app.boxee.tv/api/get_featured
+app.boxee.tv/titles/sources
+res.boxee.tv/title/badwords
+res.boxee.tv/titles/genres
+app.boxee.tv/applications/categories
+res.boxee.tv/titles/trailersections
+app.boxee.tv/api/excluded_sources
+app.boxee.tv/appindex
+app.boxee.tv/api/get_queue
+app.boxee.tv/api/getsocialservices
+app.boxee.tv/location/weather
+app.boxee.tv/action/add
+res.boxee.tv/titles/msearch
+res.boxee.tv/title/movie/
+>> %s
+Processing Directly %s... 
+boxee.tv/
+Unhandled call to Boxee.tv
+Transfer-Encoding
+chunk
+Content-Length: ABBABBABBA
+Content-Length
+ABBABBABBA
+, gzip
+deflate
+0.0.0.0
+GCC: (GNU) 4.4.6 20120305 (Red Hat 4.4.6-4)
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+crtstuff.c
+__CTOR_LIST__
+__DTOR_LIST__
+__JCR_LIST__
+__do_global_dtors_aux
+completed.5972
+dtor_idx.5974
+frame_dummy
+__CTOR_END__
+__FRAME_END__
+__JCR_END__
+__do_global_ctors_aux
+main.cpp
+_ZZ12processProxyiPKciE4myID
+_ZZ12clientThreadPvE4thID
+_GLOBAL_OFFSET_TABLE_
+__init_array_end
+__init_array_start
+_DYNAMIC
+data_start
+_Z24boxeeAppGetAppCategoriesiPKc
+_Z15boxeeAppWeatheriPKc
+sprintf@@GLIBC_2.0
+requestTrap
+connect@@GLIBC_2.0
+_Z23boxeeAppExcludedSourcesiPKc
+_Z16boxeeAppGetQueueiPKc
+mkdir@@GLIBC_2.0
+_Z19boxeeAppCheckUpdateiPKc
+__libc_csu_fini
+_Z23boxeeAppRecommendationsiPKc
+pthread_attr_setdetachstate@@GLIBC_2.0
+freeaddrinfo@@GLIBC_2.0
+_start
+_set_country_name
+shutdown@@GLIBC_2.0
+_Z12loadSettingsv
+_Z18boxeeAppGetSourcesiPKc
+_Z16boxeeAppFeaturediPKc
+_set_movie_exec
+__xstat@@GLIBC_2.0
+useBoxeeServers
+_Z8readHTTPiPcS_PiS0_ii
+__gmon_start__
+_Jv_RegisterClasses
+_fp_hw
+_Z9runThreadPv
+_Z25boxeeAppGetSocialServicesiPKc
+recv@@GLIBC_2.0
+_fini
+hasBoxeeActivity
+inet_addr@@GLIBC_2.0
+system@@GLIBC_2.0
+listen@@GLIBC_2.0
+fgets@@GLIBC_2.0
+memset@@GLIBC_2.0
+_set_city
+_Z19boxeeAppGetBadWordsiPKc
+__libc_start_main@@GLIBC_2.0
+htons@@GLIBC_2.0
+_Z14boxeeMediaReadiPKc
+__stat
+pthread_attr_setstacksize@@GLIBC_2.1
+stat
+usleep@@GLIBC_2.0
+_Z13boxeeAppLoginiPKc
+_IO_stdin_used
+free@@GLIBC_2.0
+__data_start
+_Z9boxeePingiPKc
+_Z5deURLPcS_
+accept@@GLIBC_2.0
+ioctl@@GLIBC_2.0
+socket@@GLIBC_2.0
+pthread_attr_init@@GLIBC_2.1
+sessionInc
+getaddrinfo@@GLIBC_2.0
+fclose@@GLIBC_2.1
+_Z5chompPc
+_set_firstname
+_Z8readLineiPc
+_Z21boxeeAppGetPopularityiPKc
+memcpy@@GLIBC_2.0
+strlen@@GLIBC_2.0
+_Z17boxeeAppGetGenresiPKc
+_Z12processProxyiPKci
+fopen@@GLIBC_2.1
+_Z11boxeeAppAddiPKc
+__dso_handle
+feof@@GLIBC_2.0
+strcpy@@GLIBC_2.0
+_Z9endClienti
+__DTOR_END__
+__libc_csu_init
+printf@@GLIBC_2.0
+bind@@GLIBC_2.0
+atoi@@GLIBC_2.0
+_Z19boxeeAppGetServicesiPKc
+select@@GLIBC_2.0
+_Z20boxeeAppGetBookmarksiPKc
+logToDisk
+_set_username
+close@@GLIBC_2.0
+fwrite@@GLIBC_2.0
+_Z11createStorev
+fprintf@@GLIBC_2.0
+strstr@@GLIBC_2.0
+_Z12createThreadiPFPvS_ES_
+time@@GLIBC_2.0
+remove@@GLIBC_2.0
+_Z12clientThreadPv
+__bss_start
+_Z11getINIValuePcS_S_
+malloc@@GLIBC_2.0
+_Z15prepareHTTPHeadPcPKcS_
+_Z12saveSettingsv
+_Z16boxeeAppGetReposiPKc
+_Z16boxeeMediaSearchiPKc
+pthread_create@@GLIBC_2.1
+_Z23boxeeAppGetApplicationsiPKc
+_set_clock
+strcat@@GLIBC_2.0
+send@@GLIBC_2.0
+_set_doc_path
+_end
+_Z24boxeeAppGetSubscriptionsiPKc
+_set_temp_unit
+pthread_attr_destroy@@GLIBC_2.0
+_Z12boxeeAppPingiPKc
+_Z26boxeeResGetTrailerSectionsiPKc
+_set_state_code
+_set_movie_key
+fread@@GLIBC_2.0
+_set_country_code
+_edata
+_Z14processRequestiPKc
+__gxx_personality_v0@@CXXABI_1.3
+_set_lastname
+strcmp@@GLIBC_2.0
+_Z22boxeeAppLocationDetectiPKc
+__i686.get_pc_thunk.bx
+main
+_init
+_set_postal_code
+_Z16boxeeAppGetIndexiPKc
